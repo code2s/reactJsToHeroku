@@ -1,68 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to deploy ReactJs app to Heroku.com?
 
-## Available Scripts
+### `1. What is Heroku.com?`
 
-In the project directory, you can run:
+- Heroku.com is a web hosting service, a PaaS-style cloud platform.
 
-### `yarn start`
+- Help developers put web applications and operate it easily without having to know a lot about system operation expertise.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Support many programming languages ​​such as NodeJs, Ruby, Python, Php, Java, Scala, Clojure, Go, Kotlin.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- There are free and paid programs.
 
-### `yarn test`
+- The program is free enough for developers to test their applications before publishing them on the internet.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `2. Why should developers use Heroku.com?`
 
-### `yarn build`
+- After developing any web application, you need to test it outside the internet environment.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The problem is that developers sometimes do not have the necessary resources such as domain, hosting and other resources needed for testing their newly developed applications.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Therefore, Heroku.com provides developers with a free solution to test their completed application without spending any time and money to operate the platform system. All difficulties, Heroku.com will take care of everything, and developers only worry about developing and testing their applications.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Heroku.com provides a subdomain like "subdomain.heroku.com", this helps new developers have the domain to immediately deploy their profile, blog or sample applications, ready to Employer see job competency recruitment.
 
-### `yarn eject`
+- Heroku.com can connect with Github.com so that developers can easily deploy applications from Github.com to Heroku.com.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- At the same time, Heroku.com provides a high quality paid service, if the developer needs, it is easy to deploy the tested application to a product published immediately on the internet.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `3. Video demonstrating how to push ReactJs application to Heroku`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Step 1: Set up a ReactJs application on the local computer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Step 2: Run the ReactJs application on the local computer
 
-## Learn More
+- Step 3: Configure a few parameters for the package.json file to prepare for installation on Heroku.com
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Step 4: Push ReactJs application to Github.com.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Step 5: Set up a new Heroku application on Heroku.com
 
-### Code Splitting
+- Step 6: Connect this Heroku app to Github.com on Heroku.com.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Step 7: Connect the ReactJs application from Github.com to the Heroku application on Heroku.com
 
-### Analyzing the Bundle Size
+- Step 8 (last): run the ReactJs application through the subdomain of Heroku.com.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### `Guide video`
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+https://www.youtube.com/watch?v=KcxPhJOM3uk
